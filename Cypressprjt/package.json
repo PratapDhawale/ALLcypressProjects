@@ -1,0 +1,26 @@
+{
+  "name": "cypressprjt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "echo I AM PreTEST",
+    "posttest": "echo I AM PostTEST",
+    "test": "echo I AM THE TEST",
+    "hello": "echo hello world",
+    "cy-test": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.11.0",
+    "cypress-downloadfile": "^1.2.3",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.2.1",
+    "mochawesome-report-generator": "^6.2.0"
+  },
+  "devDependencies": {
+    "cypress-file-upload": "^5.0.8"
+  }
+}
